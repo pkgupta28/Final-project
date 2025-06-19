@@ -35,6 +35,39 @@ python -m venv venv
 venv\Scripts\activate      # On Windows
 source venv/bin/activate  # On macOS/Linux
 
+Install dependencies
+pip install -r requirements.txt
+
+
+
+Configure MySQL in settings.py
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'your_db_name',
+        'USER': 'your_username',
+        'PASSWORD': 'your_password',
+        'HOST': 'localhost',
+        'PORT': '3306',
+    }
+}
+
+
+
+Run Migrations and Launch Server
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
+
+
+
+
+
+
+
+
 
 
 
