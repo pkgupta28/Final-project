@@ -17,7 +17,7 @@
 
 | Layer      | Tools                                 |
 |------------|----------------------------------------|
-| Frontend   | HTML5, CSS3, JavaScript, Bootstrap     |
+| Frontend   | Next js., Tailwind Css    |
 | Backend    | Python, Django, Django REST Framework  |
 | Database   | MySQL                                  |
 | Media      | Django media/static file handling      |
